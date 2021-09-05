@@ -1,0 +1,4 @@
+.idea/
+*.iml
+q2/annotation-autowired/target/
+q2/xml-injection/target/

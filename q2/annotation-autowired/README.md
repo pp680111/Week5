@@ -1,0 +1,1 @@
+通过@Service注解指定一个类为一个Bean,然后在另外一个使用@Component注解的类中，用@Autowired注解注入
