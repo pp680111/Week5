@@ -1,0 +1,11 @@
+db:
+  url: jdbc:mysql://localhost:3306/zst
+  username: root
+  password: 123456
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/zst
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
