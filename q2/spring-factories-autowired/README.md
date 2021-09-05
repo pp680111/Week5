@@ -1,0 +1,3 @@
+通过spring.factories文件中指定的扫描类创建Bean
+
+由于SpringBoot在启动时默认的根扫描路径是main方法所在的包路径，所以在此路径之外的类是不会被扫描到的，所以通过spring.factories手动指定要添加到自动扫描的路径中的类

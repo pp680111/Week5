@@ -1,11 +1,11 @@
-package com.zst.week5.q2.annotation.autowired;
+package com.zst.week5.q2.conditional.autowired;
+
+import org.springframework.boot.autoconfigure.condition.ConditionalOnNotWebApplication;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * 作为Service的Bean，被Spring扫描到并创建
- */
+@ConditionalOnNotWebApplication
 @org.springframework.stereotype.Service
 public class Service {
     public String getDateTime() {

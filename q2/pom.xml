@@ -7,6 +7,10 @@
     <modules>
         <module>annotation-autowired</module>
         <module>xml-injection</module>
+        <module>manual</module>
+        <module>conditional-autowired</module>
+        <module>import-autowired</module>
+        <module>spring-factories-autowired</module>
     </modules>
 
     <parent>

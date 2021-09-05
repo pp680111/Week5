@@ -1,0 +1,1 @@
+手动创建Bean注册到BeanFactory中，并直接从applicationContext获取Bean
