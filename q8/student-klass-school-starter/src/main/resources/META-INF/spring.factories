@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zst.week5.q8.student.klass.school.starter.StarterConfiguration
