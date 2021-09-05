@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                          ">
+    <bean id="user" class="com.zst.week5.q2.xml.injection.Entity">
+        <property name="name" value="Nameless" />
+        <property name="no" value="Zero"/>
+    </bean>
+
+    <bean id="xmlInjectedComponent" class="com.zst.week5.q2.xml.injection.XMLInjectedComponent" init-method="initMethod">
+        <property name="entity" ref="user"/>
+    </bean>
+</beans>
